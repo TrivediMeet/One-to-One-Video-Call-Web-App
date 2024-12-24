@@ -20,7 +20,7 @@ export default function Home() {
       type="submit"
       onClick={()=>router.push(`/room/${roomId.current?.value}`)}  >
        
-        Join to
+        Join
       </button>
     </div>
   );
